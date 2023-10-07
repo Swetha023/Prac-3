@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Young Serif', serif;
+}
+.header{
+    width: 100%;
+    background-image: linear-gradient(to right, grey,grey);
+}
+.carousel-item{
+    height: 650px;
+}
+.navbar-brand{
+    color: white!important;
+}
+.nav-link:hover{
+    color: pink!important;
+}
+.carousel-inner .carousel-caption{
+    padding-bottom: 180px;
+}
+.carousel-inner .carousel-caption h5{
+    font-size: 56px;
+    color: black;
+}
+.carousel-inner .carousel-caption p{
+    font-size: 40px;
+    color: black;
+}
+.card-body:hover{
+        box-shadow: 0 0 20px red;
+        transition: all .8s;
+        background: linear-gradient(to top, red,red);
+}
